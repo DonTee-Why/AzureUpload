@@ -1,0 +1,21 @@
+﻿@model AzureUpload.Models.FileUploadViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    <form asp-action="Upload" method="post">
+        <div class="row col-md-12 mb-3">
+            <label asp-for="File" class="col-form-label col-2"></label>
+            <div class="col-10">
+                <input class="form-control" type="file" asp-for="File" aria-label="Image">
+                <span asp-validation-for="File" class="text-danger"></span>
+            </div>
+        </div>
+    </form>
+</div>
