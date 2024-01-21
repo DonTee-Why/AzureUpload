@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace AzureUpload.Models.FileUploadViewModel
+namespace AzureUpload.Models
 {
     public class FileUploadViewModel
     {

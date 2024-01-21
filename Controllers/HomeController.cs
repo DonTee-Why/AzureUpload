@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AzureUpload.Models;
-using AzureUpload.Models.FileUploadViewModel;
 using Azure.Storage.Blobs;
 
 namespace AzureUpload.Controllers;
